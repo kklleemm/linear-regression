@@ -15,6 +15,8 @@ J = 0;
 S = X * theta - y;
 J = S' * S / (2 * m);
 
+%  if S is a 3x1 matrix, S' is the transposed 1x3 matrix
+
 % =========================================================================
 
 end
